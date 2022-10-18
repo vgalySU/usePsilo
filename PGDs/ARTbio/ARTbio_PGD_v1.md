@@ -11,3 +11,7 @@ Il peut y avoir délégation de sous-responsabilité sur des sous-projets ou sou
 
 - On peut utiliser une représentation schématique (tree, etc) ou déposer un template zippé de l'arborescence des folders et sous folders
 
+## Monitorer l'espace de stockage
+- extensions présentes et leur représentations
+- distribution de la taille des fichiers
+- 
