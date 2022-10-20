@@ -1,5 +1,7 @@
 # Characters to Avoid in Directories and Filenames
 
+- see also [this post](https://unix.stackexchange.com/questions/269093/characters-best-avoided-in-filenames-when-used-in-bash-e-g)
+
 Your web files will be viewed by numerous users who use a wide variety of operating systems
 (Mac, PC, and Linux for instance) and devices (desktops, tablets, and smartphones are some examples).
 Therefore, it is essential to play it safe and avoid common illegal directory and filename characters.
