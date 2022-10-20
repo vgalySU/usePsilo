@@ -18,7 +18,7 @@ Il peut y avoir délégation de sous-responsabilité sur des sous-projets ou sou
 - Eviter d'utiliser des caractères espace ` ` dans les noms de fichiers
 - Ne pas utiliser de caractères `spéciaux`dans les noms de fichiers et en particulier `'`, `"`, `$`, etc. Si possible définir
   cette liste de caractère spéciaux à éviter.
-- Considérer la pratique de ne pas utiliser de caractère accentués (non iso-xxx) dans les noms de fichiers et de dossiers
+- Considérer la pratique de ne pas utiliser de caractère accentués (non UTF-8) dans les noms de fichiers et de dossiers
 - Autant que possible, réfléchir à une règle "**inclusive**" de nommage des fichiers, c'est à dire une règle qui spécifie comment
   les fichiers devraient être nommés plutôt que comment ils ne devraient PAS être nommés... (cela évite les zones grises)
   
