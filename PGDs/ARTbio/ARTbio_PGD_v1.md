@@ -27,6 +27,17 @@ Il peut y avoir délégation de sous-responsabilité sur des sous-projets ou sou
   les fichiers devraient être nommés plutôt que comment ils ne devraient PAS être nommés... (cela évite les zones grises)
   
 
+## Ne pas stocker inutilement les fichiers qui sont déjà stockés sur des sources de confiances
+- les pdf d'articles, de manuels, tutoriaux etc: 
+  
+  stocker leurs url, ou mieux, leurs doi (digital object identifier) quand ils existent
+- les fichiers d'annotation génomiques (gtf, bed, bigwig, etc.) surtout s'ils sont versionnés:
+  
+  stocker leurs noms + version + url
+- les fichiers de séquences ou bam ou tsv ou cvs disponible sur les banques de données publiques (NCBI, ENA, GEO, ...):
+  
+  stocker le nom de la banque de données et l'identifiant du fichier
+
 ## Monitorer l'espace de stockage
 - extensions présentes et leur représentations
 - distribution de la taille des fichiers
