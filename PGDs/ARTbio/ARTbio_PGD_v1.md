@@ -4,7 +4,7 @@
 - Pour le moment (2022-10-18), on liste les points importants, on structurera ensuite en s'appuyant (ou pas) sur les templates existants
 - 
 
-## Responsable de l'entrepot de donnée identifié clairement
+## Responsable de l'entrepot de données identifié clairement
 Il peut y avoir délégation de sous-responsabilité sur des sous-projets ou sous-ensembles des données
 
 ## Définir la structure de l'espace de stockage, et la respecter.
