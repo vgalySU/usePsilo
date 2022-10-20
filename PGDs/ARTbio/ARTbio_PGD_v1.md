@@ -10,6 +10,8 @@ Il peut y avoir délégation de sous-responsabilité sur des sous-projets ou sou
 ## Définir la structure de l'espace de stockage, et la respecter.
 
 - On peut utiliser une représentation schématique (tree, etc) ou déposer un template zippé de l'arborescence des folders et sous folders
+- Encourager l'utilisation d'archive tar.gz ou tar.bz (compression + effet de classification)
+- mais garder un index du contenu de l'archive avec un `<nom_archive>_readme.md`
 
 ## Convention de nommage des Fichiers et Dossiers
 - Les `Fichiers` doivent toujours avoir une extension de type `.ext`
