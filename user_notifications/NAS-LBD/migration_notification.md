@@ -39,6 +39,23 @@ beaucoup plus conviviale (Nextcloud) et accessible de l'intérieur du campus com
 La première tranche du serveur psilo étant maintenant en service (450 To utiles), nous ne pouvons pas multiplier les
 efforts de maintenance sur plusieurs "petits" serveurs de stockage et nous les centralisons sur psilo.
 
+## Psilo: nouvelles promesses, nouvelles contraintes
+
+Depuis 2017, et grace à nos diverses expériences (NAS1, Usegalaxy-Nextcloud, stockages des projets ARTbio), nous avons
+beaucoup appris !
+Nous connaissons mieux les besoins réels et variés des biologistes,
+nous savons où nous pouvons nous investir pour aider efficacement, et à l'inverse quels sont les aspects sur lesquels
+d'autres feront  mieux que nous.
+Nous savons surtout qu'assurer la pérennité du stockage de données, c'est bien,
+mais qu'être capable de les retrouver pour les réutiliser (et donc les valoriser) c'est mieux.
+
+Ainsi, avec le serveur Psilo, vous disposerez d'un stockage plus sûr, de capacité suffisante pour satisfaire gratuitement
+la plupart si ce n'est tous vos besoins et beaucoup plus facilement accessible via l'interface NextCloud.
+Cet accès gratuit et sans limitation sera cependant subordonné à la rédaction d'un plan de gestion des données du compte.
+
+
+
+
 
 
 
