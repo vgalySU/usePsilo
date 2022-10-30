@@ -3,16 +3,17 @@
 
 ## 1. Description des données et collecte ou réutilisation de données existantes
 
-### 1a. Comment de nouvelles données seront-elles recueillies ou produites et/ou comment des données préexistantes seront-elles réutilisées ?
-
-_Recommandations_:
+### 1a. Comment les données sont-elles recueillies ou produites et/ou comment peuvent-elles être réutilisées ?
 
 
-
-* Expliquer quelles méthodologies ou quels logiciels seront utilisés si de nouvelles données sont recueillies ou produites.
-* Enoncer les éventuelles restrictions à la réutilisation des données préexistantes.
-* Expliquer comment la provenance des données sera documentée.
-* Indiquer brièvement le cas échéant, les raisons pour lesquelles l’utilisation de sources de données existantes a été envisagée mais écartée.
+- Pour chaque type de données, expliquer quelles méthodologies et/ou quels logiciels sont utilisés pour les recueillir ou produire.
+  Expliquer également comment elles peuvent être lues (logiciels, procédures...) et réutilisées.
+- Enoncer les éventuelles limitations techniques, méthodologiques à la réutilisation des données préexistantes.
+- Expliquer comment la provenance des données est documentée. Cette provenance peut par ex. être codée dans le nom des fichiers,
+  dans des fichiers appariés de métadonnées, dans un ou plusieurs catalogues (tableau de fichiers avec une ou plusieurs colonnes explicative),
+  dans une base de metadonnées, etc.
+- Indiquer le cas échéant, les raisons pour lesquelles l’utilisation de sources de données existantes a été envisagée mais écartée
+  (eg, si les données constituent une référence déjà existante, en quoi elles diffèrent de ce référence et pourquoi) 
 
 ### 1b. Quelles données (types, formats et volumes par ex.) seront collectées ou produites ?
 
