@@ -17,15 +17,14 @@
 
 ### 1b. Quelles données (types, formats et volumes par ex.) seront collectées ou produites ?
 
-_Recommandations_:
-
-
-
-* Donner des détails sur le type de données : par exemple numérique (bases de données, tableurs), textuel (documents), image, audio, vidéo, et/ou médias composites.
-* Détailler le format des données : la manière selon laquelle les données sont codées pour le stockage, généralement reflétée par l'extension du nom de fichier (par exemple pdf, xls, doc, txt, ou rdf).
-* Justifier l'utilisation de certains formats. Par exemple, les choix d’un format peuvent être guidés par l’expertise du personnel de l'organisme, ou par une préférence pour les formats ouverts, par les standards de format acceptés par les entrepôts de données, par l’usage largement répandu dans une communauté de recherche ou par le logiciel ou l'équipement qui sera utilisé.
-* Privilégier les formats standards et ouverts car ils facilitent le partage et la réutilisation à long terme des données (plusieurs catalogues fournissent des listes de ces "formats préférés").
-* Donner des détails sur les volumes (qui peuvent être exprimés en espace de stockage requis (octets), et/ou en quantités d'objets, de fichiers, de lignes, et colonnes).
+- Indiquer les types de données manipulés. Par exemple, bases de données, tableurs, textuel, image, audio, vidéo, médias composites (eg pdf), etc.
+- Détailler les formats de données utilisés: la manière selon laquelle les données sont codées pour le stockage, généralement reflétée par
+  l'extension du nom de fichier (par exemple pdf, xlsx, txt, bam, czi, etc.).
+  Le PGD doit contenir un liste actualisée de toutes les extensions des fichiers collectés.
+  Corrolaire: tout fichier _*doit*_ être nommé avec une extension.
+- Chaque fois qu'il existe un document de spécification d'un format de données, indiquer la source accessible de ce document.
+- Privilégier les formats standards et ouverts car ils facilitent le partage et la réutilisation à long terme des données (plusieurs catalogues fournissent des listes de ces "formats préférés").
+- Donner des détails sur les volumes: quantités d'objets, de fichiers, de lignes, de colonnes, etc. et espace de stockage requis (en octets, kilo, mega, ... octets).
 
 
 ## 2. Documentation et qualité des données
