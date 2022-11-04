@@ -13,7 +13,7 @@
   dans des fichiers appariés de métadonnées, dans un ou plusieurs catalogues (tableau de fichiers avec une ou plusieurs colonnes explicative),
   dans une base de metadonnées, etc.
 - Indiquer le cas échéant, les raisons pour lesquelles l’utilisation de sources de données existantes a été envisagée mais écartée
-  (eg, si les données constituent une référence déjà existante, en quoi elles diffèrent de ce référence et pourquoi) 
+  (eg, si les données constituent une référence déjà existante, en quoi elles diffèrent de cette référence et pourquoi) 
 
 ### 1b. Quelles données (types, formats et volumes par ex.) seront collectées ou produites ?
 
