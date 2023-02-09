@@ -6,4 +6,4 @@ One folder by template, please. This way, additional documentation related to th
 ## Opidor
 - [Link](https://dmp.opidor.fr/) for registration
 - [Link](https://dmp.opidor.fr/public_templates) for public templates
-- [link](https://dmp.opidor.fr/public_plans) for a number of public plans as examples of what you could implement 
+- [link](https://dmp.opidor.fr/public_plans) for a number of public plans as well as examples of what you could implement 
