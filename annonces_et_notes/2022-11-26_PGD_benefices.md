@@ -19,7 +19,7 @@
 - Vous vous simplifierez l'écriture des matériels et méthodes, et vous améliorerez leur
   qualité scientifique
 - Vous anticipez les demandes des bailleurs de fond (ANR, UE, etc...) qui vont de plus en
-  plus vous conditionner leur financements à la rédaction de PGD. Mais si vous ne rédigez
+  plus vous conditionner leurs financements à la rédaction de PGD. Mais si vous ne rédigez
   un PGD que parce que qu'on vous le demande, c'est dommage car cela veut dire que vous
   n'avez pas pris la mesure des bénéfices mentionnés ci-dessus, et surtout que cela
   constituera une tâche très ennuyeuse pour vous !
@@ -36,12 +36,12 @@
   alignements bam, alors que ce dernier permet de regénérer un fastq, nombreux exemples en
   imagerie également).
 - Cela permet de reduire le nombre de fichiers dont le format (propriétaire, obsolète,
-  etc.) fait qu'ils sont inutilisables.
+  etc.) les rend inutilisables.
 - Cela permet d'anticiper les besoins à venir en espace de stockage sur des bases précises
-  (et non au "doigt mouillé") en évitant les phénomènes de surévaluation des besoins ("par
+  (et non au "doigt mouillé") en évitant la surévaluation des besoins (le "par
   sécurité").
-- Cela permet d'établir un dialogue avec les chercheurs pour améliorer la gestion de leur
-  données, et de celles des collègues.
+- Cela permet d'établir un dialogue avec les chercheurs pour améliorer la gestion de leurs
+  données et de celles des collègues.
 
 Vous avez un ou deux exemples de "templates" de PGD dans le [repository GitHub des
 utilisateurs de PSILO](https://github.com/ARTbio/usePsilo), auquel vous êtes invités à
