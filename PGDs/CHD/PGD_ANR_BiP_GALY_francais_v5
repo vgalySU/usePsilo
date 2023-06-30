@@ -1,0 +1,102 @@
+AGENCE NATIONALE DE LA RECHERCHE (ANR): ANR - MODELE DE PGD (V5 FR)
+
+1. DESCRIPTION DES DONNEES ET COLLECTE OU REUTILISATION DE DONNEES EXISTANTES
+
+1a. Comment de nouvelles données seront-elles recueillies ou produites et/ou comment des données préexistantes seront-elles réutilisées ?
+Les données de microscopie sont constituées de séries d’images (multi-canaux de fluorescence et time-lapse) sont collectées sur notre microscope spinning-disk (dans les locaux de l’équipe et sauvegardées localement puis transférées automatiquement sur le serveur de stockage distant dans des locaux de l’Université (Sorbonne Université). Le format est le format propriétaire .czi produit par le logiciel « Zen blue » de Zeiss. Il inclut des meta-données très complètes des paramètres d’acquisition. Les données acquises correspondent toujours à des données issues d’expérience originales, seuls les contrôle des expériences et les répétitions nécessaires peuvent représenter des dupliquas. En fonction du développement du projet nous pouvons être amené à exploiter des données issues d’expériences antérieures avec parfois seulement la nécessité de répéter l’expérience pour vérifier la reproductibilité de la dite expérience et du résultat obtenu. Pour les nouvelles questions et les nouvelles expériences, nous ne pouvons pas utiliser des données existantes puisqu’elles n’existent pas. Les expériences dont les spécimens sont observés et documentés au microscope sont décrit en détail dans le cahier de laboratoire de l’expérimentateur. Le classement se fait par l’expérimentateur dans un répertoire à son nom et un sous-répertoire correspondant à l’acquisition des données de microscopie. Nous mettons dans les titres des fichiers les informations nécessaires à l’identification de l’expérience réalisée. La date est aussi indiquée dans le titre des fichiers (format AAMMJJ pour faciliter le tri par ordre chronologique). Les meta-données permettent de connaitre les conditions de leur acquisition (canaux, temps d’exposition, intensité des lumières d’excitation, réglage de/des camera(s), date et heure de l’acquisition). 
+
+
+1b. Quelles données (types, formats et volumes par ex.) seront collectées ou produites ?
+La majorité des données générées dans ce projet sont et seront de données d’imagerie de fluorescence sous format brut généré par le logiciel du système d’imagerie ou de fractions choisies et convertie en TIF, JPEG pour la présentation et la publication de données représentatives des résultats. Les images de spécimens fixés sont en général des séries d’images d’une même lame de microscopie d’embryons uniques ou de multiples embryons pour des fichiers au format .czi de quelques dizaines de Mb à quelques Gb. Pour les acquisitions d’images de spécimens vivants, les données sont du même type que les images de fluorescence multi-canaux sur les spécimens fixés mais on y ajoute en général la multi-acquisition au cours du temps (time-lapse). Les fichiers sauvegardés sont aussi sous la forme de fichiers .czi de quelques centaines de Mb à quelques dizaines de Gb par échantillon. Les images brutes sont sauvegardées sur le disque dur local du système puis une copie est automatiquement réalisée sur un serveur de stockage distant sur le campus de Sorbonne Université. Ces données sont sécurisées par un protocole de sauvegarde avec une copie délocalisée. Pour leurs exploitations ultérieures, les images sont visualisées au format .czi (avec l’accès au meta-données) mais peuvent nécessiter du traitement et/ou de la quantification des images. Ces transformations/mesures effectuées en utilisant des logiciels tiers (principalement image-j) sont faites sur les fichiers .tif bruts extraient des fichiers .czi. Le lien est conservé avec les données brutes d’origine en plaçant une copie du fichier .czi original dans le répertoire de traitement des données. 
+Dans ce projet nous générons également des données correspondant à des résultats d’analyses par spectrométrie de masse d’échantillons issus de purification par affinité à partir d’extraits d’embryons de C. elegans. Les résultats sont transmis sous forme de tableaux excel de quelques centaines à quelques milliers de lignes et regroupant des informations sur les peptides identifiés et les données chiffrées expliquant qu’ils aient été sélectionnés suite à l’analyse bio-informatique et statistique des résultats bruts de spectrométrie. En temps qu’utilisateur de la plateforme de spectrométrie de l’institut Jacques Monod (Paris) nous travaillons exclusivement sur les résultats travaillés et analysés. Ces quelques tableaux excel sont transmis par e-mail et conservés et sauvegardés comme le reste des documents des chercheurs utilisateur de la plateforme.
+
+2. DOCUMENTATION ET QUALITE DES DONNEES
+2a. Quelles métadonnées et quelle documentation (par exemple méthodologie de collecte et mode d'organisation des données) accompagneront les données ?
+
+Les données brutes de microscopie acquises sur notre microscope d’équipe sont au format .czi qui regroupe toutes les meta-données concernant les conditions de leurs acquisition. Les informations permettant de connaitre les conditions et le design de l’expérience sont decrits dans le cahier de laboratoire de l’expérimentateur/trice. Le lien entre les deux est établit grâce à l’intitulé du fichier et du/des répertoires de sauvegarde.
+
+
+
+2b. Quelles mesures de contrôle de la qualité des données seront mises en œuvre ?
+
+Les données de microscopies sont très dépendantes des condition d’aquisitions. La reproductibilité des réglages pour l’acquisition est garantie par la fonction « re-use » du logiciel pilotant le système de microscopie. La traçabilité est assurée par l’inscription dans le fichier .czi des paramètres d’aquisition (voir figure 1)
+
+
+ 
+Figure 1 : Capture d’écran montrant les meta-données associées aux images générées sur notre système d’imagerie et enregistrées au format ZEN (.czi). L’exemple illustre une acquisition type d’un échantillon fixé avec les images réalisées sur 143 embryons, 90 plans en Z espacés de 280nm en 4 canaux de fluorescence plus l’image en transmission. Le fichier fait 25,3Gb et les détails concernant la puissance des lasers, les réglages des caméras, etc sont également indiqués dans les informations associées aux images dans ce format de fichier. 
+
+3. STOCKAGE ET SAUVEGARDE PENDANT LE PROCESSUS DE RECHERCHE
+
+3a. Comment les données et les métadonnées seront-elles stockées et sauvegardées tout au long du processus de recherche ?
+
+Recommandations:
+●	Décrire l'endroit où les données seront stockées et sauvegardées au cours du processus de recherche et la fréquence à laquelle la sauvegarde sera effectuée. Il est recommandé de stocker les données dans au moins deux lieux distincts.
+●	Privilégier l'utilisation de systèmes de stockage robustes, avec sauvegarde automatique, tels que ceux fournis par les services informatiques de l'institution d'origine. Le stockage des données sur des ordinateurs portables, des disques durs externes, ou des périphériques de stockage tels que des clés USB n'est pas recommandé.
+
+
+3b. Comment la sécurité des données et la protection des données sensibles seront-elles assurées tout au long du processus de recherche ?
+
+Recommandations:
+●	Expliquer comment les données seront récupérées en cas d'incident.
+●	Expliquer qui aura accès aux données au cours du processus de recherche et comment l'accès aux données est contrôlé, en particulier dans le cadre de recherches menées en collaboration.
+●	Tenir compte de la protection des données, en particulier si vos données sont sensibles (par exemple données à caractère personnel, politiquement sensibles des informations ou secrets commerciaux). Décrire les principaux risques et la façon dont ils seront gérés.
+●	Expliquer quelle politique institutionnelle de protection des données est mise en œuvre.
+
+4. EXIGENCES LEGALES ET ETHIQUES, CODES DE CONDUITE 
+4a. Si des données à caractère personnel sont traitées, comment le respect des dispositions de la législation sur les données à caractère personnel et sur la sécurité des données sera-t-il assuré ?
+
+Aucunes données à caractère personnel ne seront générées ni traitées dans ce projet de recherche fondamentale sur un organisme invertébré. 
+
+
+4b. Comment les autres questions juridiques, comme la titularité ou les droits de propriété intellectuelle sur les données, seront-elles abordées ? Quelle est la législation applicable en la matière ?
+
+	L’equipe de recherche appartient à l’Unité mixte de recherche (UMR7622) de biologie du developpement dirigée par Thierry Jaffredo. Les tutelles sont le CNRS et Sorbonne Université ce sont donc les rêgles de ces deux tutelles qui s’appliquent au données générées dans ce projet. Les données non publiées ne sont accessibles qu’aux scientifiques ayant générées ses données et au gestionnaire du serveur de stockage pour sa maintenance ou la récupération des données en cas de perte liée à un incident informatique. Seule des données générée par l’equipe seront stockées, analysées et possiblement publiées. 
+
+
+
+4c. Comment les éventuelles questions éthiques seront-elles prises en compte, les codes déontologiques respectés ?
+●	Ne s’applique pas aux données générées dans le cadre du projet BiP
+
+5. PARTAGE DES DONNEES ET CONSERVATION A LONG TERME
+
+5a. Comment et quand les données seront-elles partagées ? Y-a-t-il des restrictions au partage des données ou des raisons de définir un embargo ?
+Les données n’ayant pas fait l’objet d’une publication scientifique ne sont pas rendues publique ni partagées. Les données générées dans ce projet sont par nature complexe et ne peuvent pas être utilisées par un tiers sans information complète sur le design et la réalisation de l’expérience. Chaque set de données de microscopie correspond à une expérience et un design expérimental spécifique unique. La mise à disposition et le partage des données se fait en général après un travail d’analyse et de synthèse et ne sert qu’à illustrer les résultats de ces traitements. Les données choisies pour illustrer le résultat sont alors rendues publiques sous une forme travaillée mais les données brutes peuvent également être transmises au journal publiant les travaux et si ils assurent la mise à disposition de ces données brutes aux lecteurs via leur site en ligne. Le partage des données pourra-être différé ou limité pour des raisons de publication, pour protéger la propriété intellectuelle ou le dépôt de brevets. Ces choix seront fait en interaction avec le service de partenariat et valorisation de la délégation Paris B.
+La préservation des données sur le serveur de stockage se fait par le transfert automatisé à chaud des données vers le serveur (Nextcloud) localisé dans un autre bâtiment du campus Jussieu de Sorbonne université. 
+
+5b. Comment les données à conserver seront-elles sélectionnées et où seront-elles préservées sur le long terme (par ex. un entrepôt de données ou une archive) ?
+
+Recommandations:
+●	Indiquer quelles données ne doivent pas être divulguées ou doivent être détruites pour des raisons contractuelles, légales, ou réglementaires.
+●	Indiquer comment il sera décidé quelles données garder. Décrire les données qui seront à préserver à long terme.
+●	Décrire les utilisations (et/ou les utilisateurs) prévisibles des données dans un cadre de recherche.
+●	Indiquer où les données seront déposées. Si aucun entrepôt reconnu n'est proposé, démontrer dans le plan de gestion des données que les données pourront être prises en charge efficacement au-delà de la durée de financement du projet. Il est recommandé de démontrer que les politiques des entrepôts et les procédures de dépôts (y compris les standards de métadonnées, et coûts mis en œuvre) ont été vérifiés.
+
+
+5c. Quelles méthodes ou quels outils logiciels seront nécessaires pour accéder et utiliser les données ?
+
+Les données brutes conservées au format .czi peuvent être exploitées avec les logiciels Zeiss Zen et Zen Lite et également avec Image-J. L’accès aux meta-données des fichiers .czi est également possible en utilisant Image-J. Les images extraites des fichiers.czi sont conservées en format standard TIF ou JPG.
+Aucunes d’obligations d’utiliser un/des logiciels spécifiques commerciaux pour accéder aux fichiers de données.
+
+
+5d. Comment l'attribution d'un identifiant unique et pérenne (comme le DOI) sera-t-elle assurée pour chaque jeu de données ?
+
+L’emploi d’identifiant unique ne s’applique pas aux type de données générées dans le projet BiP. Les données ne correspondent pas à des sets de données standardisés mais à des images de specimens biologiques et de conditions experimentales variées et uniques. 
+
+6. RESPONSABILITES ET RESSOURCES EN MATIERE DE GESTION DES DONNEES
+6a. Qui (par exemple rôle, position et institution de rattachement) sera responsable de la gestion des données (c'est-à-dire le gestionnaire des données) ?
+
+Les données sont générées par le système de microscopie commandé par les expérimentateurs. Elles sont ensuite sauvegardées sur le serveur « Nextcloud »dans le compte de l’équipe dont le responsable est le chef d’équipe (Vincent Galy), responsable scientifique du projet BiP.
+
+Recommandations:
+●	Décrire les rôles et les responsabilités concernant les activités de gestion des données, par exemple : saisie des données, production des métadonnées, qualité des données, stockage et sauvegarde, archivage et partage des données. Nommer la(es) personne(s) responsable(s) impliquée(s) dans la mesure du possible.
+●	Pour les projets menés en collaboration, expliquer comment s’effectue la coordination des responsabilités de gestion des données entre partenaires.
+●	Indiquer qui est responsable de la mise en œuvre du PGD, et qui s'assure qu'il est examiné et, si nécessaire, révisé.
+●	Envisager des mises à jour régulières du PGD.
+
+6b. Quelles seront les ressources (budget et temps alloués) dédiées à la gestion des données permettant de s'assurer que les données seront FAIR (Facile à trouver, Accessible, Interopérable, Réutilisable) ?
+
+Recommandations:
+●	Expliquer comment les ressources nécessaires (par exemple le temps) à la préparation des données pour le partage/préservation (curation des données) ont été chiffrées. Examiner et justifier soigneusement toutes les ressources nécessaires pour diffuser les données.
+●	Il peut s'agir de frais de stockage, de coût matériel, de temps de personnel, de coûts de préparation des données pour le dépôt, de frais d’entrepôt et d'archivage.
+●	Indiquer si des ressources supplémentaires sont nécessaires pour préparer les données en vue de leur dépôt ou pour payer tous les frais demandés par les entrepôts de données. Si oui, précisez le montant et comment ces coûts seront couverts.
+
