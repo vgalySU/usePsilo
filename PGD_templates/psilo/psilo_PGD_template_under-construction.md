@@ -66,8 +66,173 @@ _Recommandations_:
 
 
 
-* Décrire l'endroit où les données seront stockées et sauvegardées au cours du processus de recherche et la fréquence à laquelle la sauvegarde sera effectuée. Il est recommandé de stocker les données dans au moins deux lieux distincts.
-* Privilégier l'utilisation de systèmes de stockage robustes, avec sauvegarde automatique, tels que ceux fournis par les services informatiques de l'institution d'origine. Le stockage des données sur des ordinateurs portables, des disques durs externes, ou des périphériques de stockage tels que des clés USB n'est pas recommandé.
+* Décrire l'endroit où les données seront stockées et sauvegardées au cours du processus
+de recherche et la fréquence à laquelle la sauvegarde sera effectuée. Il est recommandé de
+stocker les données dans au moins deux lieux distincts.
+
+* Privilégier l'utilisation de systèmes de stockage robustes, avec sauvegarde automatique,
+tels que ceux fournis par les services informatiques de l'institution d'origine. Le
+stockage des données sur des ordinateurs portables, des disques durs externes, ou des
+périphériques de stockage tels que des clés USB n'est pas recommandé.
+
+#### Note de PSILO:
+
+Les données seront stockées sur le serveur [PSILO](https://psilo.sorbonne-universite.fr).
+
+Le serveur PSILO a une capacité de stockage de 1 Pétaoctets accessible aux utilisateurs (
+les auteurs de PGD) à travers le protocole https et un compte utilisateur [NEXTCLOUD](https://github.com/nextcloud)
+protégé par un mot de passe.
+
+Les données stockées sur PSILO _ne sont pas_*_ sauvegardées, cette sauvegarde sur un media
+distinct relevant de la responsabilité de l'utilisateur.
+
+Toutefois, la fiabilité du serveur PSILO est estimée à la date du 30 juin 2023 comme suit:
+
+Probabilités de perte de données au cours des années à venir (détail des paramètres du
+modèle statistique ci-dessous):
+```
+1 an:      0.0004297395270471
+5 ans:     0.0021468516680796
+10 ans:    0.0042890943640744
+```
+
+
+**Paramètres du [modèle statistique utilisés](https://wintelguy.com/raidmttdl.pl):**
+
+
+<table>
+  <tr>
+   <td>Total Usable Storage Capacity (GB) 
+   </td>
+   <td>900000
+   </td>
+  </tr>
+  <tr>
+   <td>Number of RAID Groups
+   </td>
+   <td>5
+   </td>
+  </tr>
+  <tr>
+   <td>Number of drives per RAID Group
+   </td>
+   <td>12
+   </td>
+  </tr>
+  <tr>
+   <td>Total Number of Drives:
+   </td>
+   <td>60
+   </td>
+  </tr>
+  <tr>
+   <td>Drive Capacity (GB)
+   </td>
+   <td>18000
+   </td>
+  </tr>
+  <tr>
+   <td>RAID Type:
+   </td>
+   <td>R6
+   </td>
+  </tr>
+  <tr>
+   <td>Drive Throughput (MB/s)
+   </td>
+   <td>70
+   </td>
+  </tr>
+  <tr>
+   <td>Drive MTBF (hour)
+   </td>
+   <td>1400000
+   </td>
+  </tr>
+  <tr>
+   <td>Drive Annual Failure Rate (%)
+   </td>
+   <td>0.625714285714286
+   </td>
+  </tr>
+  <tr>
+   <td>Drive MTTR (hour)
+   </td>
+   <td>190.857142857143
+   </td>
+  </tr>
+  <tr>
+   <td>System MTTDLDF
+<p>
+(due to multiple drive failures)
+   </td>
+   <td>22827236110.2509 hours
+<p>
+2605848.87103321 years
+   </td>
+  </tr>
+  <tr>
+   <td>Probability of read error
+<p>
+during rebuild
+   </td>
+   <td>0.7627993899340125
+   </td>
+  </tr>
+  <tr>
+   <td>System MTTDLLSE
+<p>
+(due to read error during rebuild)
+   </td>
+   <td>20398272.0977679 hours
+<p>
+2328.56987417441 years
+   </td>
+  </tr>
+  <tr>
+   <td>Combined system MTTDLTOTAL
+   </td>
+   <td><strong>20380060.6060392</strong> hours
+<p>
+<strong>2326.49093676246</strong> years
+   </td>
+  </tr>
+  <tr>
+   <td>Probability of data loss over time
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td>1 year
+   </td>
+   <td><strong>0.0004297395270471</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>5 years
+   </td>
+   <td><strong>0.0021468516680796</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>10 years
+   </td>
+   <td><strong>0.0042890943640744</strong>
+   </td>
+  </tr>
+</table>
+
+#### Note de PSILO:
+Bien qu'annoncé dans son titre, la section 3a ne comporte aucune _Recommandation__ sur les
+**métadonnées**.
+
+C'est pourtant un point essentiel du PGD, qui, s'il est correctement couvert, bénéficie
+directement au projet.
+
+_TODO:_ décliner ici les options possible pour les metadonnées des données du projet.
+_Nota bene_: Le choix des metadonnées et du système de classement et de lien avec leurs
+données reste à la discrétion de l'auteur du PGD.
 
 ### 3b. Comment la sécurité des données et la protection des données sensibles seront-elles assurées tout au long du processus de recherche ?
 
@@ -76,9 +241,67 @@ _Recommandations_:
 
 
 * Expliquer comment les données seront récupérées en cas d'incident.
-* Expliquer qui aura accès aux données au cours du processus de recherche et comment l'accès aux données est contrôlé, en particulier dans le cadre de recherches menées en collaboration.
-* Tenir compte de la protection des données, en particulier si vos données sont sensibles (par exemple données à caractère personnel, politiquement sensibles des informations ou secrets commerciaux). Décrire les principaux risques et la façon dont ils seront gérés.
+
+#### Note de PSILO
+
+Ce point est à la charge de l'utilisateur car il dépend de la stratégie de
+sauvegarde mise en place (autres sites de stockage ?).
+
+* Expliquer qui aura accès aux données au cours du processus de recherche et comment l'accès
+aux données est contrôlé, en particulier dans le cadre de recherches menées en collaboration.
 * Expliquer quelle politique institutionnelle de protection des données est mise en œuvre.
+
+
+Un compte de stockage sur PSILO est nominatif (un identifiant email unique) et désigne le
+responsable des données.
+
+Le responsable des données est libre de partager ses identifiant et mot de passe avec ses
+collaborateurs qui bénéficieront le cas échéant des mêmes droits de lectures comme d'écritures
+(donc de destruction) que le titulaire du compte de stockage.
+
+En outre, le titulaire du compte de stockage sur PSILO, bénéficie des fonctionnalités de
+partage fournies par l'interface NEXTCLOUD:
+
+- Partage en lecture de dossiers ou fichiers spécifiques avec des utilisateurs désignés par
+leurs emails (qu'ils aient un compte de stockage sur PSILO ou non)
+- Partage en écriture (sauf destruction) de dossiers spécifiques avec des
+utilisateurs désignés par leurs emails (qu'ils aient un compte de stockage sur PSILO ou non)
+- Partage Public en lecture de dossiers ou fichiers spécifiques selon un lien (URL) stable
+à générer (ce lien peut être associé à une publication scientifique).
+- Partage Public en écriture (sauf destruction) de dossiers spécifiques selon un lien (URL)
+stable à générer (ce lien peut faire office de site téléchargement anonyme).
+
+* Tenir compte de la protection des données, en particulier si vos données sont sensibles
+(par exemple données à caractère personnel, politiquement sensibles des informations ou
+secrets commerciaux). Décrire les principaux risques et la façon dont ils seront gérés.
+
+La protection des données sur Psilo repose sur le protocole https et une authentification
+simple identifiant/mot de passe.
+
+Un système additionel de surveillance automatique propre
+à NEXTCLOUD repertories la totalité des connexions (login/password/IP address) dans une base
+de données et lance une alerte (informative) lors d'une connexion avec caractéristiques
+inhabituelles.
+
+Les mots de passe des utilisateurs sont réinitialisés tous les 18 mois
+
+Si cela est s'avère nécessaire, PSILO peut instaurer une authentification à 2 facteurs
+
+Les données à caractère personel (eg, séquences de personnes) doivent obligatoirement être
+anonymisées et aucune clé de dé-anonymisation ne doit se trouver dans les systèmes de fichiers
+de PSILO.
+
+Les données à caractère sensible ou concernant des secrets commerciaux doivent être cryptées
+avec un protocole robuste.
+
+Si un protocole de chiffrement symétrique est utilisé, la clé
+de chiffrement ne sera pas conservée sur PSILO. De plus, ce protocole devra être associé à
+une fonction de dérivation de la clé de façon à limiter les cassages de clé par "brut force".
+Ex: AES256 associé à PBKDF2.
+
+Si un protocole de chiffrement asymétrique est utilisé (de type RSA),
+la clé privé de chiffrement ne sera pas conservée sur PSILO.
+
 
 
 ## 4. Exigences légales et éthiques, codes de conduite 
