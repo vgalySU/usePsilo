@@ -351,6 +351,13 @@ _Recommandations_:
 
 
 * Expliquer comment les données pourront être retrouvées et partagées (par exemple, par le dépôt dans un entrepôt de données de confiance, l'indexation dans un catalogue, par l’utilisation d'un service de données sécurisé, par le traitement direct des demandes de données, ou l'utilisation de tout autre mécanisme).
+  #### Note de PSILO:
+
+  Pour indiquer comme les données sur PSILO pourront être partagées, se reporter à la [section 3](https://github.com/ARTbio/usePsilo/blob/main/PGD_templates/psilo/psilo_PGD_template_under-construction.md#note-de-psilo-2)
+
+  Pour indiquer comme les données sur PSILO pourront être _retrouvées_, cela dépendend du système de metadata adopté.
+  Néanmoins, on peut signaler que NEXTCLOUD stocke des métadonnées informatiques dans une base MySQL, ce qui autorise la recherche de fichiers sur la base de leur nom et/ou de leur extension.
+  
 * Définir le plan de préservation des données et fournir l’information sur la durée d’archivage pérenne des données.
 * Expliquer à quel moment les données seront rendues disponibles. Indiquer les délais de publication prévus. Expliquer si une utilisation exclusive des données est revendiquée et, dans l'affirmative, pour quelle raison et pour combien de temps. Indiquer si le partage des données sera différé ou limité, par exemple pour des raisons de publication, pour protéger la propriété intellectuelle ou le dépôt de brevets.
 * Indiquer qui pourra utiliser les données. S'il s’avère nécessaire de restreindre l'accès pour certaines communautés ou d’imposer un accord pour le partage de données, expliquer comment et pourquoi. Expliquer les mesures qui seront prises pour dépasser ou minimiser ces restrictions.
