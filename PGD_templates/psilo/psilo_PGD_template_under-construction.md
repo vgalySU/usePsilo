@@ -83,7 +83,7 @@ Le serveur PSILO a une capacité de stockage de 1 Pétaoctets accessible aux uti
 les auteurs de PGD) à travers le protocole https et un compte utilisateur [NEXTCLOUD](https://github.com/nextcloud)
 protégé par un mot de passe.
 
-Les données stockées sur PSILO _ne sont pas_*_ sauvegardées, cette sauvegarde sur un media
+Les données stockées sur PSILO _ne sont pas_ sauvegardées, cette sauvegarde sur un media
 distinct relevant de la responsabilité de l'utilisateur.
 
 Toutefois, la fiabilité du serveur PSILO est estimée à la date du 30 juin 2023 comme suit:
