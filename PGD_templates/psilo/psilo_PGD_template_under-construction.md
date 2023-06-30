@@ -224,7 +224,7 @@ during rebuild
 </table>
 
 #### Note de PSILO:
-Bien qu'annoncé dans son titre, la section 3a ne comporte aucune _Recommandation__ sur les
+Bien qu'annoncé dans son titre, la section 3a ne comporte aucune _Recommandation_ sur les
 **métadonnées**.
 
 C'est pourtant un point essentiel du PGD, qui, s'il est correctement couvert, bénéficie
