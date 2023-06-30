@@ -1,3 +1,10 @@
+## Preambule
+Ce template est directement inspiré du template ANR_PGD_french_v5.md
+
+Pour les chercheurs qui souhaiteraient l'utiliser, son avantage est qu'il comporte
+des sections **pré-remplies** liées à la configuration et au mode de fonctionnement
+effectif du serveur de stockage PSILO.
+
 # ARTbio/PSILO - Modèle de PGD (français)
 
 
