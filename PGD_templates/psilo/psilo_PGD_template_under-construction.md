@@ -351,6 +351,7 @@ _Recommandations_:
 
 
 * Expliquer comment les données pourront être retrouvées et partagées (par exemple, par le dépôt dans un entrepôt de données de confiance, l'indexation dans un catalogue, par l’utilisation d'un service de données sécurisé, par le traitement direct des demandes de données, ou l'utilisation de tout autre mécanisme).
+
   #### Note de PSILO:
 
   Pour indiquer comme les données sur PSILO pourront être partagées, se reporter à la [section 3](https://github.com/ARTbio/usePsilo/blob/main/PGD_templates/psilo/psilo_PGD_template_under-construction.md#note-de-psilo-2)
